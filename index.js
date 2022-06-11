@@ -17,7 +17,7 @@ program.command('challengeOne')
       limit = 100;
     }
 
-    VisualNutsPrinterService
+    return VisualNutsPrinterService
       .compute(limit)
       .then(response => response.map(ret => console.log(ret.print ? ret.print : ret.number)));
   });
@@ -45,7 +45,7 @@ program.command('challengeTwo')
       .then(response => console.log(`Country with the highest number of official languages => ${response.country} (${response.languages.join(',')})`))
       .catch(error => console.error(error.message));
 
-    VisualNutsCountryService
+    return VisualNutsCountryService
       .getMostCommonLanguages(require('./data/countries.json'))
       .then(response => console.log(`Most common languages => ${response.join(',')}`))
       .catch(error => console.error(error.message));
