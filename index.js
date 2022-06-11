@@ -24,7 +24,7 @@ program.command('challengeOne')
 
 program.command('challengeTwo')
   .description('Shows information about official languages spoken by countries')
-  .action((options) => {
+  .action(() => {
     VisualNutsCountryService
       .getNumberOfCountries(require('./data/countries.json'))
       .then(response => console.log(`Number of countries => ${response}`))
