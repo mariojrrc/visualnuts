@@ -5,7 +5,7 @@ Visual Nuts - Challenge
 [![SonarCloud Bugs](https://sonarcloud.io/api/project_badges/measure?project=mariojrrc_visualnuts&metric=bugs)](https://sonarcloud.io/component_measures/metric/reliability_rating/list?id=mariojrrc_visualnuts)
 [![SonarCloud Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=mariojrrc_visualnuts&metric=vulnerabilities)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=mariojrrc_visualnuts)
 
-This project is an example of possible challenge resolution of Visual Nuts Callenge.
+This project is an example of possible challenge resolution of Visual Nuts Challenge.
 
 It is a console application which basically has two endpoints functionalities: 
 

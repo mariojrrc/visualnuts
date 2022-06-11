@@ -19,7 +19,7 @@ program.command('challengeOne')
 
     return VisualNutsPrinterService
       .compute(limit)
-      .then(response => response.map(ret => console.log(ret.print ? ret.print : ret.number)));
+      .then(response => response.forEach(ret => console.log(ret.print ? ret.print : ret.number)));
   });
 
 program.command('challengeTwo')
