@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/mario/sites/challenge-visual-nuts/tests/unit/services/willnuts-printer.test.js">
+    <testCase name="Printer test Should return 100 items when using default limit" duration="18"/>
+    <testCase name="Printer test Should return 5 items when passing a limit" duration="1"/>
+    <testCase name="Printer test Should return 1000000 items when passing a limit greater than the safe threshold" duration="127"/>
+    <testCase name="Printer test Should return 100 items when passing a zero or negative limit" duration="5"/>
+  </file>
+  <file path="/home/mario/sites/challenge-visual-nuts/tests/unit/services/willnuts-countries.test.js">
+    <testCase name="Country test Should return 7 when getting number of countries with a valid test data" duration="31"/>
+    <testCase name="Country test Should throw exception getting number of countries with a invalid test data" duration="1"/>
+    <testCase name="Country test Should return BE (nl, fr, de) when getting DE country with most languages and a valid test data" duration="0"/>
+    <testCase name="Country test Should throw exception getting DE country with most languages with a invalid test data" duration="0"/>
+    <testCase name="Country test Should return 8 when getting official languages and a valid test data" duration="0"/>
+    <testCase name="Country test Should throw exception getting official languages with a invalid test data" duration="1"/>
+    <testCase name="Country test Should return BE (nl, fr, de) when getting country with the highest number of official languages and a valid test data" duration="0"/>
+    <testCase name="Country test Should throw exception getting country with the highest number of official languages and a invalid test data" duration="0"/>
+    <testCase name="Country test Should return (nl, fr, de) when getting most common languages and a valid test data" duration="0"/>
+    <testCase name="Country test Should throw exception getting most common languages and a invalid test data" duration="0"/>
+  </file>
+</testExecutions>
