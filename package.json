@@ -1,0 +1,19 @@
+{
+  "name": "challenge-visual-nuts",
+  "version": "1.0.0",
+  "description": "Challenge Visual Nuts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage"
+  },
+  "author": "Mario Costa",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^9.3.0",
+    "jest": "^28.1.1"
+  },
+  "dependencies": {
+    "ajv": "^8.11.0"
+  }
+}
