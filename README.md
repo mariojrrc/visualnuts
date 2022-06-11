@@ -22,7 +22,7 @@ Note 2: Challenge 2 uses data from `data/countries.json` and it looks to answer 
 - the most common official language(s), of all countries.
 
 ### Requirements
-Node 10+
+Node 14+
 
 ### Running the project
 
